@@ -1,0 +1,29 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    width: 25%;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+strong {
+    text-decoration: underline;
+}
