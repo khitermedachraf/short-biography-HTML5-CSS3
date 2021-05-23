@@ -75,6 +75,41 @@
         <fieldset>
             <legend>Divers</legend>
 
+            <label>Vos Centres d’intérêt:</label><br>
+            <div>
+                <input type="checkbox" id="lecture" name="interest" value="lecture">
+                <label for="lecture">Lecture</label>
+            </div>
+            <div>
+                <input type="checkbox" id="musique" name="interest" value="musique">
+                <label for="musique">Musique</label>
+            </div>
+            <div>
+                <input type="checkbox" id="dessin" name="interest" value="dessin">
+                <label for="dessin">Dessin</label>
+            </div>
+            <div>
+                <input type="checkbox" id="cuisine" name="interest" value="cuisine">
+                <label for="cuisine">Cuisine</label>
+            </div><br>
+            <label for="color">Votre couleur prefere:</label>
+            <input list="colors" name="color" id="color">
+            <datalist id="colors">
+                <option value="Verte">
+                <option value="Violet">
+                <option value="Rouge">
+                <option value="Bleue">
+            </datalist><br><br>
+            <label for="colors">Autre couleurs que vous aimez bien:</label><br>
+            <select name="colors" id="colors" multiple>
+              <option value="Orange">Orange</option>
+              <option value="Jaune">Jaune</option>
+              <option value="Blanc">Blanc</option>
+              <option value="Noire">Noire</option>
+            </select><br><br>
+            <label for="color">Selectionnez votre couleur prefere:</label>
+            <input type="color" id="color" name="color">
+
         </fieldset>
     </form>
 
