@@ -27,3 +27,69 @@ figcaption {
 strong {
     text-decoration: underline;
 }
+
+body>header,
+body>footer,
+main {
+    background-color: #e7e2e2;
+    width: 97%;
+    height: 100%;
+    padding: 0.5%;
+    display: block;
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+main {
+    /* or inline-flex */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+#main-section {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    margin-top: 4%;
+    background-color: rgb(243, 214, 245);
+}
+
+nav,
+aside {
+    padding-top: 5%;
+}
+
+section {
+    border: 1px solid black;
+    padding: 1%;
+    margin-bottom: 4%;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: red;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: rgb(134, 23, 161);
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: green;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
